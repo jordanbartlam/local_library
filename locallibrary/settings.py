@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '!xrpwda7ctzv(=g=5=ud7-f7kn!a%h
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['peaceful-shelf-42183.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
